@@ -14,6 +14,6 @@
 </head>
 <body>
     <header>
-        <h1>Portfolio d'une developpeuse en devenir</h1>
-        <h2>blah blablah</h2>
+        <div class="titre">Portfolio d'une developpeuse en devenir</div>
+        <div class="sous-titre">blah blablah</div>
     </header>

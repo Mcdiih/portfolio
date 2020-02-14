@@ -1,0 +1,209 @@
+/*page top.php*/
+
+header {
+    background: #8f6bcae7;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+}
+
+h2 {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #d4d4d4;
+    font-size: 20px;
+    position: absolute;
+}
+
+/*page bottom.php*/
+
+.bar-bottom {
+    font-family: Rajdhani;
+    font-size: 15px;
+    display: flex;
+    color: #000000;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #8f6bcae7;
+}
+
+.NomPrenom {
+    color: #ffffff;
+}
+
+/*les autres pages*/
+
+body {
+    background: #8f6bcae7;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-contenu {
+    display: flex;
+}
+
+ /*partie menu*/
+
+.menu {
+    width: 500px;
+    font-family: Rajdhani;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.iconeMenu {
+    color: #000000;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.page {
+    color: #ffffff;
+}
+
+.pageActuelle {
+    color: #000000
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+      color: #000000;
+      text-decoration: none;
+}
+
+/*partie contenu*/
+
+.contenu {
+    color: #000000;
+    opacity: 60%;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+}
+
+.texte {
+    font-family: Questrial;
+    margin: 100px;
+}
+
+form {
+    width: 458px;
+    padding: 1em;
+}
+  
+form div + div {
+    margin-top: 1em;
+}
+  
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+  
+.button {
+    padding-left: 263px;
+}
+  
+button {
+    margin-left: .5em;
+    font-family: Rajdhani;
+    font-size: 20px;
+}
+
+/*formulaire*/
+
+nav a {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+h3 {
+    margin-left: 20px;
+    color: black;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+h4 {
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+h5 {
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.boutonFormulaire {
+    text-decoration: none;
+    background-color: mediumvioletred;
+    color: #ffffff;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.container {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+label {
+	display: block;
+}
+
+input, textarea, button {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	font-family: inherit;
+}
+
+input, textarea {
+    border: 1px solid #000000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+article.message {
+    border: 1px solid #000000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.message {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    place-content: space-between;
+    background-color: #ffffff;
+}
+
+button {
+    font-size: inherit;
+    width: 80px;
+}
